@@ -233,7 +233,6 @@ pub fn row_to_number(row: &str) -> Result<usize, String>
     Ok(left*10 + right)
 }
 
-
 pub fn get_sum_of_all_calibration_values_extra(lex: &mut logos::Lexer<'_, Row>) -> Result<usize, String>
 {
     let mut sum: usize = 0;
@@ -250,4 +249,3 @@ pub fn get_sum_of_all_calibration_values_extra(lex: &mut logos::Lexer<'_, Row>) 
         }
     }
 }
-

@@ -2,6 +2,7 @@ use std::io::Read;
 use relative_path::RelativePath;
 
 pub mod day1;
+pub mod day2;
 
 pub fn read_to_string(file_path: &str) -> Result<String, std::io::Error>
 {
