@@ -1,4 +1,4 @@
-use logos::{Logos, Lexer, Span};
+use logos::{Logos, Span};
 use std::collections::HashSet;
 
 #[derive(Logos, Debug, PartialEq)]
