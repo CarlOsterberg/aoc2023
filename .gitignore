@@ -2,3 +2,4 @@
 tests/data/
 Cargo.lock
 src/main.rs
+.idea/
